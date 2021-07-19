@@ -4,4 +4,3 @@ do
     redis-cli -h redis RPUSH "$1" "$i" > /dev/null
     echo "Pushed rank $i."
 done
-redis-cli -h redis RPUSH "$1" "done" > /dev/null
